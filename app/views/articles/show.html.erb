@@ -1,0 +1,16 @@
+<h1> <%= @article.title %>
+  <small>
+  <small>
+  <small>
+    <%= link_to '🖊', edit_article_path(@article)%>
+    <%= link_to '🗑', article_path(@article), method: :delete, data: { confirm: "Are your fuckin sure to delete this article?"} %>
+  </small>
+  </small>
+  </small>
+</h1>
+
+<%= image_tag "http://www.pokego.org/assets/img/pokemon/#{@article.title.downcase}-pokemon-go.png" %>
+
+<div class="article">
+  <p> <%= @article.content %> </p>
+</div>

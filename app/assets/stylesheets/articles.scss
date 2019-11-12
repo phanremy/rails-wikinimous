@@ -1,0 +1,39 @@
+// Place all the styles related to the articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import "bootstrap/scss/bootstrap";
+
+ul {
+  // list-style-type: none;
+}
+
+ul li {
+  // padding: 12px;
+  font-family: sans-serif;
+}
+
+h1, {
+  font-family: Open Sans;
+  padding-left: 50px;
+}
+
+p {
+}
+
+a {
+  text-decoration: none;
+}
+
+
+form {
+  padding-left: 50px;
+}
+
+a:hover {
+  opacity: 0.5;
+  text-decoration: none;
+}
+
+.text-area-large {
+  height: 200px !important;
+}
